@@ -1,0 +1,125 @@
+[
+  {
+    "sectionName": "Datos",
+    "questions": [
+      {
+        "question": "Edad IC",
+        "type": "number"
+      },
+      {
+        "question": "Edad OOC",
+        "type": "number"
+      },
+      {
+        "question": "Adjunte imagen de DNI",
+        "type": "attachment"
+      },
+      {
+        "question": "Adjunte imagen de licencia de conducir",
+        "type": "attachment"
+      },
+      {
+        "question": "¿Tienes experiencia como policía?",
+        "type": "text"
+      },
+      {
+        "question": "Apodo que quieras tener(Ningun nombre ofensivo o que tenga mala IDP)",
+        "type": "text"
+      },
+      {
+        "question": "URL de Steam",
+        "type": "text"
+      }
+    ]
+  },
+  {
+    "sectionName": "Normativa",
+    "questions": [
+      {
+        "question": "1. Si estas tu solo de servicio y se te dan a la fuga una moto, ¿con que vehículo patrullarías?",
+        "type": "text"
+      },
+      {
+        "question": "2. ¿En qué ocasión se puede usar el chaleco adicional secundario?",
+        "type": "paragraph"
+      },
+      {
+        "question": "3. Como norma general, ¿cuántos policías pueden ir en un patrulla",
+        "type": "text"
+      },
+      {
+        "question": "4. ¿Desde cuándo empieza a contar el tiempo del robo?",
+        "type": "text"
+      },
+      {
+        "question": "5. Límite de negociación del botín en un atraco",
+        "type": "text"
+      },
+      {
+        "question": "6. ¿Cuáles son los derechos de los detenidos?",
+        "type": "paragraph"
+      },
+      {
+        "question": "7. ¿Qué implica que los atracadores superen el tiempo límite del robo?",
+        "type": "paragraph"
+      },
+      {
+        "question": "8. ¿Se puede sobrevolar la ciudad con helicóptero de combate?",
+        "type": "text"
+      },
+      {
+        "question": "9. ¿Se puede llevar pistola fuera de servicio? ¿Y quién?",
+        "type": "text"
+      },
+      {
+        "question": "10. ¿Qué haces si te quedas solo en un robo?",
+        "type": "paragraph"
+      }
+    ]
+  },
+  {
+    "sectionName": "Situaciones de rol",
+    "questions": [
+      {
+        "question": "11. ¿Cuántos rehenes se pueden tener como máximo en los distintos robos (pequeños,medianos y grandes)?",
+        "type": "text"
+      },
+      {
+        "question": "12. ¿Cómo manejarías una situación en la que tienes que arrestar a un compañero?",
+        "type": "paragraph"
+      },
+      {
+        "question": "13. ¿Qué hacer cuando entras/sales de servicio?",
+        "type": "paragraph"
+      },
+      {
+        "question": "14. Estás patrullando con tu compañero de adam por una zona peligrosa, te pinchan ruedas, te rodean 4 coches y te apuntan con un arma. ¿Que harías en esta situación?",
+        "type": "paragraph"
+      },
+      {
+        "question": "15. El H50 te da la orden de apagar las cámaras de la sala de interrogatorio. ¿Qué harías? Explica el porqué.",
+        "type": "paragraph"
+      },
+      {
+        "question": "16. Después de terminar un robo el cual resultaste victorioso ¿Qué es lo que harias y cómo procesarías al sujeto?",
+        "type": "paragraph"
+      },
+      {
+        "question": "17. Estás en mando y eres el H-50 de la malla, ¿Cómo distribuirías a la malla (2,7,15 agentes)?",
+        "type": "paragraph"
+      },
+      {
+        "question": "18. Eres el H50 y estás llegando al Humane (rol pactado) cuando de repente salta QRR de la LSSD, ¿qué harías en esta situación?",
+        "type": "paragraph"
+      },
+      {
+        "question": "19. Explicar qué hacer al realizar una detención desde que lo esposas hasta que lo metes en la celda (Explicar con /me y /do)",
+        "type": "paragraph"
+      },
+      {
+        "question": "20. Estás patrullando y te llega un aviso de código 3 a la central de aviso, ¿qué harias?",
+        "type": "paragraph"
+      }
+    ]
+  }
+]

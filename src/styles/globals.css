@@ -1,0 +1,71 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: theme("colors.ctp-crust.DEFAULT");
+  --background-alt: theme("colors.ctp-base.DEFAULT");
+  --foreground: theme("colors.ctp-subtext0.DEFAULT");
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  @apply bg-ctp-surface1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+body {
+  background-color: var(--background);
+  /* overflow-y: hidden; */
+  color: var(--foreground);
+  width: 100%;
+  min-height: 100vh;
+  max-height: 100vh;
+}
+
+.window .windowHeader {
+  @apply bg-ctp-blue text-ctp-base px-2 py-1 w-full max-h-20;
+}
+
+.window .windowContainer {
+  @apply p-5 flex flex-col gap-3 bg-ctp-base;
+}
+
+.undraggable {
+  user-drag: none;
+  -webkit-user-drag: none;
+  user-select: none;
+  -moz-user-select: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+}
+
+h2 {
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+}
+
+h2::after {
+  content: "----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------";
+  display: inline-block;
+  width: 100%;
+  height: auto;
+  z-index: 100;
+  position: absolute;
+  margin-left: 10px;
+}
